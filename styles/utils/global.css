@@ -1,0 +1,8 @@
+body{
+  background-color: #FFFFFF;
+}
+
+p,h1,h2,h3,span,strong{
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
