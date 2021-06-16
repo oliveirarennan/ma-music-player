@@ -1,0 +1,21 @@
+.internal-header-bar{
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+
+.internal-header-bar__logo{
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.header-bar__logo img{
+  margin-right: 16px;
+}
+.internal-header-bar__search{
+  padding-top: 12px;
+}

@@ -1,0 +1,32 @@
+.content{
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: 31px;
+}
+
+
+.content main  h2, h3, h4 {
+  margin-top: 24px;
+}
+
+.content main p.content__paragraph1{
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--gray-800);
+  line-height: 20px;
+}
+.content main p.content__paragraph1 span{
+  font-weight: 700;
+  font-style: italic;
+}
+
+.content main p.content__paragraph2{
+  margin-top: 24px;
+  font-size: 12px;
+  color: var(--gray-800);
+  line-height: 20px;
+}
+.content main p.content__paragraph2 span{
+  font-weight: 700;
+  font-style: italic;
+}
