@@ -4,6 +4,7 @@
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
+  padding-bottom: 16px;
 }
 
 .header-bar__logo{
