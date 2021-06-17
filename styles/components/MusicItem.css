@@ -1,0 +1,50 @@
+.music-item{
+  width: 95vw;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  transition: ease 600ms;
+}
+.music-item:hover{
+  background-color: var(--gray-400);
+}
+.music-item__track-number{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+.music-item-info{
+  margin-left: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.music-item-info-title{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-800);
+}
+.music-item-info-time{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-800);
+  opacity: .6;
+}
+.music-item__img{
+  margin-left: 22px;
+  margin-right: 12px;
+}
+.music-item--active{
+  background-color: var(--primary-blue);
+  color: var(--white);
+  width: 95vw;
+  padding: 14px;
+  display: flex; 
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.music-item__img--active{
+  margin-left: 22px;
+}

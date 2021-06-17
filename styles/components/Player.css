@@ -1,0 +1,33 @@
+.player{
+  display: flex;
+  width: 85vw;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1F1F1F;
+  color: var(--white);
+  border-radius: 9px;
+  position: fixed;
+  bottom: 14px;
+  padding: 16px;
+  margin: 0 auto;
+  margin-left: 14px;
+
+}
+
+.player-artist-info__title{
+  font-weight: 700;
+  font-size: 14px;
+
+}
+.player-artist-info__artist{
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+  opacity: .6;
+}
+.player-controls{
+  width: 20%;
+  margin-right: 24px;
+  display: flex;
+  justify-content: space-between;
+}

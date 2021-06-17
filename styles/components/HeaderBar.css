@@ -1,6 +1,6 @@
 .header-bar{
   display: flex;
-  width: 90vw;
+  width: 100vw;
   align-items: center;
   margin: 0 auto;
   justify-content: space-between;
